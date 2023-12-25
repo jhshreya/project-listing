@@ -62,7 +62,7 @@ function App() {
       <SearchBar fetchJobsCustoms={fetchJobsCustoms}/>
       {customSearch && 
       <button onClick={fetchJobs} className='flex pl-[1250px] mb-2'>
-        <p className='bg-blue-500 px-10 py-2 rounded-md text-white'>Clear Filters</p>
+        <p className='bg-blue-500 px-5 py-2 rounded-md text-white'>Clear Filters</p>
       </button>
       
       }
